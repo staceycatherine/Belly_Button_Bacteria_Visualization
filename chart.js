@@ -146,7 +146,7 @@ Plotly.newPlot("bar", barData, barLayout)
         console.log(result);
     
         //  5. Create a variable that holds the first sample in the array.
-      //this is already completed: Using d3.select(), you can select the element that has changed and retrieve the property and HTML id that has changed.
+      
         
       var wfreq = result.wfreq 
       console.log(wfreq);
@@ -164,10 +164,10 @@ Plotly.newPlot("bar", barData, barLayout)
           
             steps: [
               { range: [0, 2], color: 'red'},
-              { range: [2, 4], color: 'orange' },
+              { range: [2, 4], color: 'orange'},
               { range: [4, 6], color: 'yellow' },
-              { range: [6, 8], color: 'lightblue' },
-              { range: [8, 10], color: 'mediumblue'},
+              { range: [6, 8], color: 'lightgreen' },
+              { range: [8, 10], color: 'blue'},
              
         ],
 
